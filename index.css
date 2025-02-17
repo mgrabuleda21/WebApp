@@ -31,16 +31,16 @@ body {
     font-size: 4vmax;
 }
 #menu {
-    display: flex;    
-    height: 8vmax;
+display: flex;    
+height: 8vmax;
 }
-#menu {
-    flex: 1;    
-    display: flex;   
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: #950E17;
-    font-size: 5vmax;
-    cursor: pointer;
+#menu i{
+flex: 1;    /* cada botó pretén ocupar tot l'espai disponible */
+display: flex;    /* contenidor flex on centrar-hi la icona */
+justify-content: center;
+align-items: center;
+color: white;
+background-color: #950E17;
+font-size: 5vmax;
+cursor: pointer;
 }
