@@ -9,7 +9,7 @@ body {
     min-height: -webkit-fill-available;    
     margin: 0px;    
     font-family: sans-serif;    
-    background-color: #FCDEE0;    
+    background-color: #0400ff;    
 }
 #superior {
     display: flex;
@@ -17,7 +17,7 @@ body {
     justify-content: center;    
     align-items: center;    
     font-size: 4vmax;    
-    color: white;    
+    color: rgb(0, 0, 0);    
     background-color: #0400ff;     
 }
 .seccio {
@@ -39,7 +39,7 @@ flex: 1;    /* cada botó pretén ocupar tot l'espai disponible */
 display: flex;    /* contenidor flex on centrar-hi la icona */
 justify-content: center;
 align-items: center;
-color: white;
+color: rgb(0, 0, 0);
 background-color: #0400ff;
 font-size: 5vmax;
 cursor: pointer;
